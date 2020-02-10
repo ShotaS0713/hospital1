@@ -18,4 +18,12 @@ class PagesController extends Controller
     public function getContact(){
         return view ('contact');
     }
+
+    public function getConfirm(){
+        return view ('confirm');
+    }
+    public function postConfirm(){
+        return view ('confirm');
+    }
+
 }
