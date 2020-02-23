@@ -18,5 +18,7 @@
 Route::get('/', 'PagesController@getHome');
 Route::get('/about', 'PagesController@getAbout');
 Route::get('/contact', 'PagesController@getContact');
-Route::get('/confirm', 'PagesController@getConfirm');
+// Route::get('/confirm', 'PagesController@getConfirm');
 Route::post('/confirm', 'PagesController@postConfirm');
+Route::post('/mail', 'PagesController@postMail');
+Route::get('/mail', 'PagesController@getMail');

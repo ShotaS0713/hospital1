@@ -14,20 +14,20 @@
     <body class="bbody">
       @include('header')
       <div class="header-image">
-            <img src="" alt="" class="glasses">
-          </div>
+        <img src="/storage/glasses.jpg" alt="" class="glasses">
+      </div>
           <div class="home-text">
             <div class='contact'>
               <form action="confirm" method="post" name="Form1">
               {{ csrf_field() }}
                       <div class="form-group">
-                          <label>Your Name　<span class="label label-danger">*Mandantry</span></label>
-                          <input type="text" class="form-control" placeholder="清水　翔太" name="name" required>
+                          <label>Your Name <span class="label label-danger">*Mandantry</span></label>
+                          <input type="text" class="form-control" placeholder="清水 翔太" name="name" required>
                           <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                           <div class="help-block with-errors"></div>
                       </div>
                       <div class="form-group">
-                          <label>E-mail Address　<span class="label label-danger">*Mandantry</span></label>
+                          <label>E-mail Address <span class="label label-danger">*Mandantry</span></label>
                           <input type="email" class="form-control" placeholder="xxxxxx@yahoo.co.jp" name="email" required>
                           <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                           <div class="help-block with-errors"></div>
@@ -54,7 +54,7 @@
                           <input type="text" class="form-control" placeholder="〇〇について" name="subject" onClick="changeDisabled()">
                       </div>
                       <div class="form-group">
-                          <label>Comment　<span class="label label-danger">*Mandantry</span></label>
+                          <label>Comment <span class="label label-danger">*Mandantry</span></label>
                           <textarea placeholder="お問い合わせ内容" rows="10" class="form-control" name="main" required></textarea>
                   <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                   <div class="help-block with-errors"></div>
@@ -74,9 +74,6 @@
                   window.onload = changeDisabled;
               </script>
             </div>
-          </div>
-          <div class="site-content">
-
           </div>
           @include('footer')
     </body>

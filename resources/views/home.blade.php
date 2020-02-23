@@ -20,13 +20,35 @@
     <body class="bbody">
       @include('header')
           <div class="header-image">
-            <img src="/storage/glasses.jpg" alt="" class="glasses">
+            <img src="/storage/snowboard.jpg" alt="" class="sbpic">
           </div>
           <div class="home-text">
           My Styleは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
           </div>
           <div class="site-content">
-
+            <div class="my-strengths">
+              <div class="my-strengths__head">・自己PR、強み</div>
+              <div class ="strengh"> 
+                <div class = "myst">主体性。。。</div>
+                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+              </div>
+              <div class ="strengh"> 
+                <div class = "myst">読書。。。</div>
+                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+              </div>
+              <div class ="strengh"> 
+                <div class = "myst">主体性。。。</div>
+                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+              </div>
+              <div class ="strengh"> 
+                <div class = "myst">主体性。。。</div>
+                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+              </div>
+            </div>
+            <div class="howiwanna">
+              <div class="my-strengths__head">・どうしてwebプログラマーにになりたいのか</div>
+              私がどうしてwebプログラマーになりたいかというと。。。
+            </div>
           </div>
           @include('footer')
 

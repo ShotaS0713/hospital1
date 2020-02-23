@@ -139,13 +139,19 @@ html{
 .header-image{
   height: 500px;
   text-align: center;
-  border: solid 0.9px black;
+  border-left: solid 0.9px black;
+  border-right: solid 0.9px black;
   margin-bottom: 90px;
 }
 .glasses{
   height: 100%;
-  /* width: 80%; */
+  width: 80%;
 }
+.sbpic{
+  height: 100%;
+  width: 80%;
+}
+
 .todaydate{
   position: absolute;
   top: 0;
@@ -171,8 +177,30 @@ a{
 .site-content{
   height: 1440px;
 }
+.my-strengths{
+  height: 720px;
+  font-size: 24px;
+}
+.my-strengths__head{
+  height: 36px;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
 
+.myst{
+  margin: 12px 0;
+}
 
+.strengh{
+  margin: 30px;
+}
+
+.howiwanna{
+  height: 720px;
+  font-size: 24px;
+}
 
 
 
@@ -276,4 +304,14 @@ a{
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+.conrtainer{
+  width: 100%;
+  margin: 10px;
+}
+
+.row{
+  font-size: 16px;
+}
+
 

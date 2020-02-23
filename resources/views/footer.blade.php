@@ -12,8 +12,8 @@
                           <strong>Shota Shimizu</strong>
                         </div>
                         <div class="profsns">
-                          <i class="fab fa-twitter"></i>
-                          <i class="fab fa-instagram"></i>
+                          <a href="https://twitter.com/shota_s0608"><i class="fab fa-twitter"></i></a>
+                          <a href="https://www.instagram.com/iec_shota000"><i class="fab fa-instagram"></i></a>
                         </div>
                       </div>
                     </div>
@@ -36,8 +36,8 @@
               <div class="site-bottom__table">
                 <nav class="footer-social-link">
                   <ul class="social-icon">
-                    <li class="fabli"><i class="fab fa-twitter"></i></li>
-                    <li class="fabli"><i class="fab fa-instagram"></i></li>
+                    <a href="https://twitter.com/shota_s0608"><li class="fabli"><i class="fab fa-twitter"></i></li></a>
+                    <a href="https://www.instagram.com/iec_shota000"><li class="fabli"><i class="fab fa-instagram"></i></li></a>
                   </ul>
                 </nav>
                 <div class="site-info">
