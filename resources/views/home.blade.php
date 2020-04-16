@@ -23,31 +23,33 @@
             <img src="/storage/snowboard.jpg" alt="" class="sbpic">
           </div>
           <div class="home-text">
-          My Styleは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
+          「My Style〜自身を知るためのwebsite〜」は細部における空間の作り方やサイズ感、統一感にこだわりシンプルに仕上げました。
           </div>
           <div class="site-content">
             <div class="my-strengths">
               <div class="my-strengths__head">・自己PR、強み</div>
               <div class ="strengh"> 
                 <div class = "myst">主体性。。。</div>
+                自分から進んで行動する力があります。もくもく会等のイベント交流やテックキャンプで自分から話しかけることを意識してコミュニケーションを取ってきました。
+              </div>
+              
+              <div class ="strengh"> 
+                <div class = "myst">適応力。。。</div>
+                まだまだ若いこともあり、吸収能力が高いと自負しています。新しいことをどんどん吸収する力があります。
+              </div>
+              <div class ="strengh"> 
+                <div class = "myst">。。。</div>
                 自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
               </div>
               <div class ="strengh"> 
-                <div class = "myst">読書。。。</div>
-                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
-              </div>
-              <div class ="strengh"> 
-                <div class = "myst">主体性。。。</div>
-                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
-              </div>
-              <div class ="strengh"> 
-                <div class = "myst">主体性。。。</div>
-                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+                <div class = "myst">収集力。。。</div>
+                毎日、移動時はkindleで本を読む習慣をつけています。また、インターネットを使って世の中の流れやそれに基づく情報を自分なりに取捨選択し、取り入れています。
               </div>
             </div>
             <div class="howiwanna">
-              <div class="my-strengths__head">・どうしてwebプログラマーにになりたいのか</div>
-              私がどうしてwebプログラマーになりたいかというと。。。
+              <div class="my-strengths__head">・どうしてwebエンジニアにになりたいのか</div>
+              元々、公務員になり休日を楽しみたいという発想を持っていました。このまま約四十年間、平日の週五日の時間を
+              好きじゃないことに費やす人生は嫌だと感じ、方向性を変更したいと決意したのがきっかけです。
             </div>
           </div>
           @include('footer')

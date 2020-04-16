@@ -42,7 +42,7 @@
                 </nav>
                 <div class="site-info">
                   <div class="site-credit">
-                      Powered by WordPress | Theme: Write by Themegraphy
+                      Powered by Shota Shimizu | Theme: Write by Themegraphy
                       
                   </div>
                 </div>

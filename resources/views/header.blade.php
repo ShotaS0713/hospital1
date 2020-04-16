@@ -6,7 +6,7 @@
           <h1 class="site_title">
             <a href="/" class="sitename">My Style</a>
           </h1>
-          <div class="site_description">自分自身を知る</div>
+          <div class="site_description">自身を知るためのwebsite</div>
         </div>
       
         <nav class="site_nav">

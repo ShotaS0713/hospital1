@@ -71,21 +71,22 @@ html{
   margin-right: auto;
 } 
 .site_header{
- height: 813px;
+ height: 860px;
 }
 .site_top{
   height: 81px;
-  margin-bottom: 72px;
+  margin-bottom: 60px;
 }
 .site_top_table{
   height: 100%;
   display: flex;
+  margin-bottom: 60px;
 }
 .site_blanding{
   text-decoration: none;
   padding-right: 75px;
   vertical-align: top;
-  width: 33%;
+  width: 39%;
   height: 100%;
 }
 .sitename{
@@ -139,17 +140,17 @@ html{
 .header-image{
   height: 500px;
   text-align: center;
-  border-left: solid 0.9px black;
-  border-right: solid 0.9px black;
-  margin-bottom: 90px;
+  /* border-left: solid 0.6px black;
+  border-right: solid 0.6px black; */
+  margin-bottom: 69px;
 }
 .glasses{
   height: 100%;
-  width: 80%;
+  width: 81%;
 }
 .sbpic{
   height: 100%;
-  width: 80%;
+  width: 81%;
 }
 
 .todaydate{
@@ -190,7 +191,8 @@ a{
 }
 
 .myst{
-  margin: 12px 0;
+  margin: 12px 0 12px 27px;
+  font-size: 36px;
 }
 
 .strengh{
