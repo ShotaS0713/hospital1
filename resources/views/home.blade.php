@@ -1,22 +1,3 @@
-
-
-
-
-
-
-<!doctype html>
-  <html lang="en">
-    <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <link rel="stylesheet" href="{{ asset('css/home.css') }}">
-      <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-      <title>aboutme</title>
-    </head>
     <body class="bbody">
       @include('header')
           <div class="header-image">
@@ -24,34 +5,40 @@
           </div>
           <div class="home-text">
           「My Style〜自身を知るためのwebsite〜」は細部における空間の作り方やサイズ感、統一感にこだわりシンプルに仕上げました。
+           
           </div>
           <div class="site-content">
             <div class="my-strengths">
-              <div class="my-strengths__head">・自己PR、強み</div>
+              <div class="my-strengths__head">#自己PR・強み ５選</div>
               <div class ="strengh"> 
-                <div class = "myst">主体性。。。</div>
+                <div class = "myst">１ 主体性。。。</div>
                 自分から進んで行動する力があります。もくもく会等のイベント交流やテックキャンプで自分から話しかけることを意識してコミュニケーションを取ってきました。
               </div>
               
               <div class ="strengh"> 
-                <div class = "myst">適応力。。。</div>
+                <div class = "myst">２ 適応力。。。</div>
                 まだまだ若いこともあり、吸収能力が高いと自負しています。新しいことをどんどん吸収する力があります。
               </div>
               <div class ="strengh"> 
-                <div class = "myst">。。。</div>
-                自分から進んで行動する力があります。もくもく会等のイベント交流やTECHEXPERTで自分から話しかけることを意識してコミュニケーションを取ってきました。
+                <div class = "myst">３ 逆算力。。。</div>
+                私が、物事を進めていく上で一番大事にしていることです。毎日やることリストと時間単位のスケジュールを前日の夜に書き、ゴールから逆算する習慣があります。
               </div>
               <div class ="strengh"> 
-                <div class = "myst">収集力。。。</div>
+                <div class = "myst">４ 収集力。。。</div>
                 毎日、移動時はkindleで本を読む習慣をつけています。また、インターネットを使って世の中の流れやそれに基づく情報を自分なりに取捨選択し、取り入れています。
+              </div>
+              <div class ="strengh"> 
+                <div class = "myst">５ 体力。。。</div>
+                小学生から大学生時代に部活をしていたので、時間を守る、夜更かししない、朝しっかり起きる、が習慣化されており、日中の体力には自信があります。
               </div>
             </div>
             <div class="howiwanna">
-              <div class="my-strengths__head">・どうしてwebエンジニアにになりたいのか</div>
+              <div class="my-strengths__head">#どうしてwebエンジニアにになりたいのか</div>
               元々、公務員になり休日を楽しみたいという発想を持っていました。このまま約四十年間、平日の週五日の時間を
               好きじゃないことに費やす人生は嫌だと感じ、方向性を変更したいと決意したのがきっかけです。
             </div>
           </div>
+          <div class="myappsinfo">※尚、個人で実装したことはmyappsページにございます。</div>
           @include('footer')
 
       <!-- Optional JavaScript -->

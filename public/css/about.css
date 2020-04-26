@@ -1,0 +1,27 @@
+.site-content{
+  height: 1440px;
+}
+
+.my-apps{
+  height: 100%;
+  font-size: 24px;
+  width: 100%;
+}
+.my-apps-head{
+  height: 36px;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.implemented-apps{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myapp{
+  width: 50%;
+  height: 50%;
+
+}
