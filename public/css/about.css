@@ -1,5 +1,14 @@
 .site-content{
-  height: 1440px;
+  height: 900px;
+}
+.mepic{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  height: 100%;
+  width: 81%;
 }
 
 .my-apps{
@@ -13,6 +22,7 @@
   color: black;
   font-weight: bold;
   margin-bottom: 12px;
+  text-align: center;
 }
 .implemented-apps{
   height: 100%;
@@ -21,7 +31,54 @@
 }
 
 .myapp{
-  width: 50%;
-  height: 50%;
-
+  width: 45%;
+  height: 45%;
+  position: relative;
+  margin: 24px;
+  text-decoration: none;
 }
+.apppic{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 60px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+  transition: .3s;
+  border-radius: 5px;
+}
+
+.apppic:hover {
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.1);	/*画像の拡大率*/
+  transition-duration: 0.3s;	/*変化に掛かる時間*/
+  }
+
+
+  @media screen and (max-width: 1040px){
+    .site-content{
+      height: 1500px;
+    }
+    .implemented-apps {
+      display: block;
+  }
+    .implemented-apps .apppic {
+        width: 100%;
+        margin: 0 auto;
+    }
+  }

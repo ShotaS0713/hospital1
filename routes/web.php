@@ -22,3 +22,4 @@ Route::get('/contact', 'PagesController@getContact');
 Route::post('/confirm', 'PagesController@postConfirm');
 Route::post('/mail', 'PagesController@postMail');
 Route::get('/mail', 'PagesController@getMail');
+Route::get('/app1', 'PagesController@getApp1');
