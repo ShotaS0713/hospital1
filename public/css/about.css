@@ -1,4 +1,4 @@
-.site-content{
+.about-site-content{
   height: 900px;
 }
 .mepic{
@@ -71,7 +71,7 @@
 
 
   @media screen and (max-width: 1040px){
-    .site-content{
+    .about-site-content{
       height: 1500px;
     }
     .implemented-apps {

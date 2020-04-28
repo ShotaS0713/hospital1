@@ -22,6 +22,19 @@ class PagesController extends Controller
     public function getConfirm(){
         return view ('confirm');
     }
+
+    public function getApp1(){
+        return view ('app1');
+    }
+    public function getApp2(){
+        return view ('app2');
+    }
+    public function getApp3(){
+        return view ('app3');
+    }
+    public function getApp4(){
+        return view ('app4');
+    }
     
     public function postConfirm(request $req){
         return view ('confirm',compact('req'));
