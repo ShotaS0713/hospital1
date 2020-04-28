@@ -6,24 +6,17 @@
             <p class="project-desc">
 
             </p>
-            <ul class="project-tag flex-center">
-              <li>HAML/SCSS Coding</li>
-              <li>Javascript/Ruby/Rails</li>	
+            <ul class="berbs">
+              <li class="berb">HAML/SCSS Coding</li>
+              <li class="berb">Javascript/Ruby/Rails</li>	
             </ul>
             <div class="link-button">
                   <p>
-                    <a class="btn" href="https://themify.me/member/aff/go/webcreatormana">Launch Website</a>
+                    <a class="button" href="http://52.193.48.41/">Launch Website</a>
                   </p>
+            </div>
+            <div class="project-screen">
+              <img src="/storage/fm64d.jpg" alt="themify1" width="1680" height="1000" class="mepic" sizes="(max-width: 1680px) 100vw, 1680px">
             </div>
           </div>
           @include('footer')
-
-          <div class="header-image">
-            <img src="/storage/fm64d.jpg" alt="" class="mepic">
-          </div>
-          <div class="home-text">
-          「My Style〜自身を知るためのwebsite〜」は細部における空間の作り方やサイズ感、統一感にこだわりシンプルに仕上げました。
-          </div>
-          <div class="about-site-content">
-            
-          </div>
