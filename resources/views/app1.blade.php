@@ -2,9 +2,13 @@
       @include('header')
           <div class="app-info">
             <h2 class="appname">freemarket64d</h2>
-            <p class="app-date">January 2020</p>
+            <p class="app-date">March 2020</p>
             <p class="project-desc">
-
+                ・ 私自身初のアジャイル開発で、フリマアプリを４人で２ヶ月（全員働きながら）で実装しました。<br>
+                ・ アカウントを作り、商品を出品・購入できるものとなっています。<br>
+                ・ 売りは、他の同期のチームに比べて一番必須項目＋αを実装したところです。<br>
+                ・ Javascriptで細かい部分にこだわりました。<br>
+                （トップページのカテゴリ、出品時の利益率計算、あいまい検索etc.）
             </p>
             <ul class="berbs">
               <li class="berb">HAML/SCSS Coding</li>

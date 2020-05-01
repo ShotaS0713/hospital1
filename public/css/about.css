@@ -72,13 +72,18 @@
 
   @media screen and (max-width: 1040px){
     .about-site-content{
-      height: 1500px;
+      height: 1800px;
     }
-    .implemented-apps {
-      display: block;
-  }
+    .myapp{
+      width: 90%;
+      height: 25%;
+      position: relative;
+      margin: 12px auto 0;
+      text-decoration: none;
+    }
     .implemented-apps .apppic {
-        width: 100%;
-        margin: 0 auto;
+        width: 90%;
+        height:  60%;
+        margin: 60px auto 0;
     }
   }

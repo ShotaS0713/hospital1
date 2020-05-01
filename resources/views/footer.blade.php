@@ -42,7 +42,7 @@
                 </nav>
                 <div class="site-info">
                   <div class="site-credit">
-                      Powered by Shota Shimizu | Theme: Write by Themegraphy
+                      Created by Shota Shimizu | Html/Css Cording with PHP/Laravel
                       
                   </div>
                 </div>

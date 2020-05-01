@@ -1,9 +1,9 @@
 .app-info{
-  height: 900px;
+  height: 1080px;
 }
 
 .appname{
-  font-size: 36px;
+  font-size: 39px;
   height: 36px;
   margin: 4% 0 2%;
   text-align: center;
@@ -11,6 +11,11 @@
 .app-date{
   text-align: center;
   margin: 4% 0 2%;
+  font-size: 21px;
+}
+.project-desc{
+  font-size: 21px;
+  margin: 4% 2% 2%;
 }
 
 .berbs{
@@ -19,6 +24,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 4% 0 2%;
+  font-size: 21px;
 }
 .berb{
   margin: 0 4% 0;
