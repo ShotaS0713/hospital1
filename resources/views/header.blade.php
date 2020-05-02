@@ -62,6 +62,7 @@
                     </div>
                     <div class="todaydate">
                       <?php
+                        date_default_timezone_set('Asia/Tokyo');
                         echo "Today's date is ".date("F d l Y")
                       ?>
                     </div>
