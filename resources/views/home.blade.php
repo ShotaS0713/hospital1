@@ -1,7 +1,7 @@
     <body class="bbody">
       @include('header')
           <div class="header-image">
-            <img src="/storage/snowboard.jpg" alt="" class="sbpic">
+            <img src="{ asset('storage/snowboard.jpg') }}" alt="" class="sbpic">
           </div>
           <div class="home-text">
           「My Style〜自身を知るためのwebsite〜」は細部における空間の作り方やサイズ感、統一感にこだわりシンプルに仕上げました。
