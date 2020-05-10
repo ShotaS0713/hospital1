@@ -12,7 +12,6 @@ class PagesController extends Controller
     public function getHome(){
         $path = Storage::disk('s3')->url('snowboard.jpg');
         return view('home', compact('path'));
-        return view ('home');
        
     }
 
