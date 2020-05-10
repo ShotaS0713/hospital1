@@ -1,6 +1,7 @@
     <body class="bbody">
       @include('header')
           <div class="header-image">
+            <img src="{{ 'snowboard.jpg' }}" alt="" class="sbpic">
             <img src="/storage/snowboard.jpg" alt="" class="sbpic">
           </div>
           <div class="home-text">
