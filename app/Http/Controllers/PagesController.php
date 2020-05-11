@@ -19,7 +19,7 @@ class PagesController extends Controller
     public function getAbout(){
         $mepic = Storage::disk('s3')->url('08.jpg');
         $frima = Storage::disk('s3')->url('fm64d.jpg');
-        $sapphire = Storage::disk('s3')->url('02.jpg');
+        $sapphire = Storage::disk('s3')->url('no_img.png');
         $myhp = Storage::disk('s3')->url('myhomepage1.jpg');
         $calendar = Storage::disk('s3')->url('calendartodo.png');
         $glasses = Storage::disk('s3')->url('glasses.jpg');
