@@ -36,19 +36,23 @@ class PagesController extends Controller
 
     public function getApp1(){
         $frima = Storage::disk('s3')->url('fm64d.jpg');
-        return view('app1', compact('frima'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('app1', compact('frima', 'glasses'));
     }
     public function getApp2(){
         $sapphire = Storage::disk('s3')->url('02.jpg');
-        return view('app2', compact('sapphire'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('app2', compact('sapphire', 'glasses'));
     }
     public function getApp3(){
         $myhp = Storage::disk('s3')->url('myhomepage1.jpg');
-        return view('app3', compact('myhp'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('app3', compact('myhp', 'glasses'));
     }
     public function getApp4(){
         $calendar = Storage::disk('s3')->url('calendartodo.png');
-        return view('app4', compact('calendar'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('app4', compact('calendar', 'glasses'));
     }
     
     public function postConfirm(request $req){
