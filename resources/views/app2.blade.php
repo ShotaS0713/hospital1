@@ -19,7 +19,7 @@
               </p>
             </div>
             <div class="project-screen">
-              <img src="{{ $sapphire }}" alt="" class="apppic"> 
+              <img src="{{ $sapphire }}" alt="" class="apppic" sizes="(max-width: 1680px) 100vw, 1680px"> 
             </div>
           </div>
           @include('footer')
