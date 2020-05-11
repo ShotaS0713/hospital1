@@ -18,7 +18,7 @@
               </p>
             </div>
             <div class="project-screen">
-              <img src="{{ $calendar }}" alt="" class="apppic" sizes="(max-width: 1680px) 100vw, 1680px"> 
+              <img src="{{ $calendar }}" alt="" class="mepic" sizes="(max-width: 1680px) 100vw, 1680px"> 
             </div>
           </div>
           @include('footer')
