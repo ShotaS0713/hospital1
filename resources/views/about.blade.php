@@ -1,7 +1,7 @@
 <body class="bbody">
       @include('header')
           <div class="header-image">
-            <img src="{{ $mypic }}" alt="" class="mepic">
+            <img src="{{ $mepic }}" alt="" class="mepic">
           </div>
           <div class="home-text">
           「My Style〜自身を知るためのwebsite〜」は細部における空間の作り方やサイズ感、統一感にこだわりシンプルに仕上げました。
