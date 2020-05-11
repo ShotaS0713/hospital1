@@ -40,7 +40,7 @@ class PagesController extends Controller
         return view('app1', compact('frima', 'glasses'));
     }
     public function getApp2(){
-        $sapphire = Storage::disk('s3')->url('02.jpg');
+        $sapphire = Storage::disk('s3')->url('no_img.png');
         $glasses = Storage::disk('s3')->url('glasses.jpg');
         return view('app2', compact('sapphire', 'glasses'));
     }

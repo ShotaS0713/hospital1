@@ -15,7 +15,7 @@
             </ul>
             <div class="link-button">
               <p>
-                <a class="button" href="#">Launch Website</a>
+                <a class="button" href="#">Coming soon</a>
               </p>
             </div>
             <div class="project-screen">

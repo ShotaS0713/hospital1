@@ -18,9 +18,10 @@
                       </div>
                     </div>
                     <div class="proftext">
-                      Birth:  1995.06.08 <br>
-                      Birthplace:  Osaka <br>
-                      Specialty:  Ball game(sports) <br>
+                      <b>Birth:</b>  1995.06.08 <br>
+                      <b>Birthplace:</b>  Osaka <br>
+                      <b>Specialty:</b>  Ball game(sports) <br>
+                      <b>Development record:</b>  Haml・SCSS・Ruby・Ruby on Rails・JavaScript・jQuery・GitHub・AWS
 
                     </div>
                   </div>
