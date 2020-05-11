@@ -15,7 +15,7 @@
                   <h2 class="">Furima app</h2>
                 </a>
                 <a href="/app2" class="myapp">
-                  <img src="{{ $sapphire }}" alt="" class="apppic noimg"> 
+                  <img src="{{ $sapphire }}" alt="" class="apppic"> 
                   <h2 class="">Sapphire</h2>
                 </a>
                 <a href="/app3" class="myapp">
