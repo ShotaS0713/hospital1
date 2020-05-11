@@ -18,7 +18,7 @@
               </p>
             </div>
             <div class="project-screen">
-              <img src="/storage/calendartodo.png" alt="themify1" width="1680" height="1000" class="mepic" sizes="(max-width: 1680px) 100vw, 1680px">
+              <img src="{{ $calendar }}" alt="" class="apppic"> 
             </div>
           </div>
           @include('footer')
