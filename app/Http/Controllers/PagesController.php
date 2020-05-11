@@ -17,7 +17,8 @@ class PagesController extends Controller
     }
 
     public function getAbout(){
-        return view ('about');
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('about', compact('glasses'));
     }
 
     public function getContact(){
