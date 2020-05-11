@@ -5,7 +5,7 @@
                   <div class="profile-content">
                     <div class="selfintro">
                       <div class="profimg">
-                        <img src="/storage/glasses.jpg" alt="" class="profpic">
+                        <img src="{{ $glasses }}" alt="" class="profpic">
                       </div>
                       <div class="prof-meta">
                         <div class="profname">
