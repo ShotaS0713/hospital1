@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    'log' => env('LOG_OUTPUT', 'errorlog'),
     /*
     |--------------------------------------------------------------------------
     | Application Name

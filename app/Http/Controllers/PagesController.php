@@ -3,15 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
 
 class PagesController extends Controller
 {
     //
     public function getHome(){
-        return view ('home');
+        $path = Storage::disk('s3')->url('snowboard.jpg');
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('home', compact('path', 'glasses'));
+       
     }
 
     public function getAbout(){
+
         $mypic = Storage::disk('s3')->url('08.jpg');
         $frima = Storage::disk('s3')->url('fm64d.jpg');
         $sapphire = Storage::disk('s3')->url('02.jpg');
