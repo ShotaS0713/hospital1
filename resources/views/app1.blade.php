@@ -9,6 +9,8 @@
                 <li class="details">・ アカウントを作り、商品を出品・購入できるものとなっています。<br></li>
                 <li class="details">・ 売りは、他の同期のチームに比べて一番必須項目＋αを実装したところです。<br></li>
                 <li class="details">・ Javascriptで細かい部分にこだわりました。<br>（トップページのカテゴリ、出品時の利益率計算、あいまい検索etc.）</li>
+                <li class="details">・ ページを開かれましたら、右上のログインボタンから下記の情報を入力お願いします。<br></li>
+                <li class="details">・<b>メールアドレス: buyer_user@gmail.com </b><br><b>・パスワード: buyer_user </b></li>
               </ul>
             </p>
             <ul class="berbs">
