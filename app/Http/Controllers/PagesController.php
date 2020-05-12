@@ -27,8 +27,9 @@ class PagesController extends Controller
     }
 
     public function getContact(){
+        $books = Storage::disk('s3')->url('09.jpg');
         $glasses = Storage::disk('s3')->url('glasses.jpg');
-        return view('contact', compact('glasses'));
+        return view('contact', compact('glasses','books'));
     }
 
     public function getConfirm(){
