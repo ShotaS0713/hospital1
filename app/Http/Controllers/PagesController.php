@@ -27,11 +27,13 @@ class PagesController extends Controller
     }
 
     public function getContact(){
-        return view ('contact');
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('contact', compact('glasses'));
     }
 
     public function getConfirm(){
-        return view ('confirm');
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('confirm', compact('glasses'));
     }
 
     public function getApp1(){
@@ -59,7 +61,8 @@ class PagesController extends Controller
         return view ('confirm',compact('req'));
     }
     public function getMail(){
-        return view ('mail');
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('mail', compact('glasses'));
     }
     public function postMail(request $req){
         return view ('mail',compact('req'));
