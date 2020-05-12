@@ -14,7 +14,7 @@
     <body class="bbody">
       @include('header')
       <div class="header-image">
-        <img src="/storage/glasses.jpg" alt="" class="glasses">
+        <img src="{{ $glasses }}" alt="" class="glasses"> 
       </div>
           <div class="home-text">
             <div class='contact'>
