@@ -58,13 +58,15 @@ class PagesController extends Controller
     }
     
     public function postConfirm(request $req){
-        return view ('confirm',compact('req'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('confirm', compact('req', 'glasses'));
     }
     public function getMail(){
         $glasses = Storage::disk('s3')->url('glasses.jpg');
         return view('mail', compact('glasses'));
     }
     public function postMail(request $req){
-        return view ('mail',compact('req'));
+        $glasses = Storage::disk('s3')->url('glasses.jpg');
+        return view('mail', compact('req','glasses'));
     }
 }
