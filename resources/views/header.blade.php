@@ -73,7 +73,7 @@
                         echo "Today's date is ".date("F d l Y")
                       ?>
                     </div>
-                    <form action="" id="sss" method="post">
+                    <!-- <form action="" id="sss" method="post">
                       <label for="">
                         <span></span>
                         <input type="search" class="search-field" placeholder="検索..." value name="s" >
@@ -81,7 +81,7 @@
                       <button type="submit" class="search-submit" value="検索">
                         <i class="fas fa-search"></i>
                       </button>
-                    </form>
+                    </form> -->
                   </div>
                 </div>
               </nav>

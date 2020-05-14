@@ -233,10 +233,11 @@ html{
 
 .todaydate{
   position: absolute;
-  top: 0;
+  top: 18px;
   right: 0;
   margin-bottom: 12px;
-  color: black;
+  color: gray;
+  font-size: 18px;
 }
 #sss{
   position: absolute;
