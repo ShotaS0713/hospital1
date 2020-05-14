@@ -1,6 +1,8 @@
 # Mystyle
 It's been half a year since I started learning programming. 
 This is the site when I change jobs.
+
+
 プログラミング開始半年で実装したことやエンジニア転職の理由などが書かれたポートフォリオです。
  
 ## DEMO
@@ -10,27 +12,30 @@ This is the site when I change jobs.
 
 <img width="1194" alt="mystyle3" src="https://user-images.githubusercontent.com/57582823/81883180-7e6c0a00-95cf-11ea-9649-bf6c2cbd2b5b.png">
 
+## Dependency
 
+PHP/Laravel Html Css 
  
 ## Features
 
-イベントを追加し、予定を入れることができます。
+余白と白黒でデザインをシンプルに仕上げました。
  
 
  
 ## Installation
-
  
-```bash
-git clone https://github.com/shimish000/calendartodo.git
+Please see it using the following link
+herokuにアップしておりますので下記からご覧ください。
 
-cd /calendartodo
-```
+ https://shota-s.herokuapp.com
+ 
  
 ## Usage
-ログインしていただくと予定が追加できる仕組みとなっております。右上のボタンからログイン後、ボタンがnew eventに変わるので、そこからイベントを追加してください。
- 
+
+homeページにに強みとエンジニア転職理由、myappsページに実装した内容がございます。
 ## Author
- 
+
 * ShotaShimizu　
-* テックキャンプ
+* テックキャンプ夜間６４期生
+
+ 
