@@ -14,7 +14,7 @@
             </ul>
             <div class="link-button">
               <p>
-                <a class="button" href="https://github.com/shimish000/calendartodo">Open GithubOpen Github</a>
+                <a class="button" href="https://github.com/shimish000/calendartodo">Open Github</a>
               </p>
             </div>
             <div class="project-screen">
