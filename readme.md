@@ -18,6 +18,7 @@ PHP/Laravel Html Css
  
 ## Features
 
+I made the site  simply with padding and 
 余白と白黒でデザインをシンプルに仕上げました。
  
 
@@ -25,6 +26,7 @@ PHP/Laravel Html Css
 ## Installation
  
 Please see it using the following link
+
 herokuにアップしておりますので下記からご覧ください。
 
  https://shota-s.herokuapp.com
