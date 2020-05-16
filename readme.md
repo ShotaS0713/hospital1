@@ -18,7 +18,8 @@ PHP/Laravel Html Css
  
 ## Features
 
-I made the site  simply with padding and 
+I made the site simply with padding and black and white.
+
 余白と白黒でデザインをシンプルに仕上げました。
  
 
